@@ -39,8 +39,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 a.site-logo {
-  font-size: 26px;
+  font-size: 3em;
   font-weight: 800;
   text-transform: uppercase;
   color: #000;
@@ -158,9 +159,9 @@ a.site-logo span {
 /* mobile breakpoint end */
 
 /* Banner Start */
+
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.562) 100%, rgba(0, 0, 0, 0) 100%),
-    url("./images/site-bg-img.jpg");
+  background: url("./images/test.jpg");
   background-size: cover;
   background-position: center center;
   height: 40vh;
@@ -173,15 +174,15 @@ a.site-logo span {
 }
 
 .banner-slug-wrapper h1 {
-  font-size: 4em;
-  color: #fff;
+  font-size: 4vw;
+  color: #1e272e;
   font-weight: 700;
   padding-bottom: 0.5em;
 }
 
 .banner-slug-wrapper p {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 1.5vw;
   line-height: 1.2;
   font-weight: 300;
 }
